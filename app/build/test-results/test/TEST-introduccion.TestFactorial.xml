@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="introduccion.TestFactorial" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-08-20T03:26:47" hostname="desktop-linux" time="0.003">
+  <properties/>
+  <testcase name="Factorial of 0 is 1" classname="introduccion.TestFactorial" time="0.001"/>
+  <testcase name="Factorial of 1 is 1" classname="introduccion.TestFactorial" time="0.0"/>
+  <testcase name="Factorial of 2 is 2" classname="introduccion.TestFactorial" time="0.0"/>
+  <testcase name="Factorial of 3 is 6" classname="introduccion.TestFactorial" time="0.0"/>
+  <testcase name="Factorial of 20 is 2432902008176640000" classname="introduccion.TestFactorial" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

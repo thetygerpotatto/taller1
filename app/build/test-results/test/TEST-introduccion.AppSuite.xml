@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="introduccion.AppSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-20T03:26:47" hostname="desktop-linux" time="0.012">
+  <properties/>
+  <testcase name="App has a greeting" classname="introduccion.AppSuite" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
