@@ -1,6 +1,6 @@
-#Plantilla talleres programación funcional
+# Plantilla talleres programación funcional
 
-##Reglas
+## Reglas
 
 - Sólo modificar lo indicado por el docente
 - Debe agregar las pruebas de software solicitadas en el docente
