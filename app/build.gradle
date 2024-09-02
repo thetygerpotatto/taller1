@@ -64,5 +64,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'introduccion.App'
+    mainClass = 'taller.App'
 }
