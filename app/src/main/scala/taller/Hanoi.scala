@@ -6,7 +6,8 @@ class Hanoi() {
         else  2 * movsTorresHanoi(n - 1) + 1
     }
     
-    def TorresHanoi (n : Int, t1: Int, t2: Int, t3: Int) : List[(a: Int, b:Int)] = {
+    /*def TorresHanoi (n : Int, t1: Int, t2: Int, t3: Int) : List[(a: Int, b:Int)] = {
         
-    }
+
+    }*/
 }
