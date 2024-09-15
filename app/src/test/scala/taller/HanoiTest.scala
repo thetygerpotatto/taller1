@@ -28,4 +28,13 @@ val objHanoi = new Hanoi()
     test("n = 25 retorna 33554431") {
         assert(objHanoi.movsTorresHanoi(25) == 33554431)
     }
+
+    test("n == 2 retorna (1, 2), (1, 3), (2, 3)") {
+      assert(objHanoi.TorresHanoi(2, 1, 2, 3) == List((1, 2), (1, 3), (2, 3)))
+    }
+
+
+    test("n == 3 retorna (1, 3), (1, 2), (3, 2), (1, 3), (2, 1), (2, 3), (1, 3)") {
+      assert(objHanoi.TorresHanoi(3, 1, 2, 3) == List((1, 3), (1, 2), (3, 2), (1, 3), (2, 1), (2, 3), (1, 3)))
+    }
 }
