@@ -5,14 +5,8 @@ package taller
 
 object App {
   def main(args: Array[String]): Unit = {
-    println(t())
   }
 
   def greeting(): String = "Hello, world!"
   
-
-  def t(): String = {
-    val h = new Hanoi()
-    h.TorresHanoi(6, 1, 2, 3).toString()
-  }
 }
