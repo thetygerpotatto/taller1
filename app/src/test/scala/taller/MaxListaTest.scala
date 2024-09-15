@@ -32,8 +32,8 @@ class MaxListaTest extends AnyFunSuite {
     assert(objmax.MaxIt(List(1)) == 1)
   }
 
-  test("devolver 1000 en List(3, 4, 5, 8, 1000)") {
-    assert(objmax.MaxIt(List(3, 4, 5, 8, 1000)) == 3)
+  test("devolver 14 en List(3, 14, 5)") {
+    assert(objmax.MaxIt(List(3, 14, 5)) == 14)
   }
 
   test ("Devolver 500 en List(100, 200, 300, 400, 500)") {
