@@ -12,15 +12,15 @@ class MaxListaTest extends AnyFunSuite {
     assert(objmax.MaxLin(List(1, 2, 3, 4, 5)) == 5)
   }
 
-  test("devolver 9 en List(1, 2, 3, 4, 5)") {
+  test("devolver 9 en List(1, 9, 2, 3, 4, 5, 8)") {
     assert(objmax.MaxLin(List(1, 9, 2, 3, 4, 5, 8)) == 9)
   }
 
-  test("devolver 15 en List(1, 2, 3, 4, 5)") {
+  test("devolver 15 en List(1, 9, 2, 3, 4, 5, 8, 15, 15)") {
     assert(objmax.MaxLin(List(1, 9, 2, 3, 4, 5, 8, 15, 15)) == 15)
   }
 
-  test("devolver 1 en List()") {
+  test("devolver 1 en List(1)") {
     assert(objmax.MaxIt(List(1)) == 1)
   }
 
