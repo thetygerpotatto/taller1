@@ -41,10 +41,10 @@ class MaxListaTest extends AnyFunSuite {
   }
   
   test ("Devolver 3 en List(1, 1, 1, 1, 3)") {
-    assert(objmax.MaxIt(List(100, 200, 300, 400, 500)) == 500)
+    assert(objmax.MaxIt(List(1, 1, 1, 1, 3)) == 3)
   }
   
   test ("Devolver 500 en List(0, 65, 32, 27, 500)") {
-    assert(objmax.MaxIt(List(100, 200, 300, 400, 500)) == 500)
+    assert(objmax.MaxIt(List(0, 65, 32, 27, 500)) == 500)
   }
 }
