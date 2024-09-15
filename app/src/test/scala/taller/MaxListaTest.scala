@@ -21,11 +21,11 @@ class MaxListaTest extends AnyFunSuite {
   }
 
   test("devolver 20 en List(0, 2, 0, 0, 6, 20)") {
-    assert(objmax.MaxLin(List(0, 2, 0, 0, 6, 20)) == 15)
+    assert(objmax.MaxLin(List(0, 2, 0, 0, 6, 20)) == 20)
   }
   
   test("devolver 102 en List(100, 99, 88, 102, 97)") {
-    assert(objmax.MaxLin(List(100, 99, 88, 102, 97)) == 15)
+    assert(objmax.MaxLin(List(100, 99, 88, 102, 97)) == 102)
   }
   
   test("devolver 1 en List(1)") {
